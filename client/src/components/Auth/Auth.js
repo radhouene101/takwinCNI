@@ -68,8 +68,8 @@ const SignUp = () => {
           <Grid container spacing={2}>
             { isSignup && (
             <>
-              <Input name="firstName" label="prenom" handleChange={handleChange} autoFocus half />
-              <Input name="lastName" label="nom" handleChange={handleChange} half />
+              <Input name="firstName" label="اسم" handleChange={handleChange} autoFocus half />
+              <Input name="lastName" label="لقب" handleChange={handleChange} half />
             </>
             )}
             <Input name="email" label="البريد الإلكتروني" handleChange={handleChange} type="email" />
